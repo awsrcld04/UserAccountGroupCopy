@@ -145,7 +145,7 @@ namespace UserAccountGroupCopy
 
         static void funcPrintParameterSyntax()
         {
-            Console.WriteLine("UserAccountGroupCopy (c) 2011 SystemsAdminPro.com");
+            Console.WriteLine("UserAccountGroupCopy");
             Console.WriteLine();
             Console.WriteLine("Parameter syntax:");
             Console.WriteLine();
@@ -203,7 +203,6 @@ namespace UserAccountGroupCopy
 
             Dictionary<string, string> dCatchTable = new Dictionary<string, string>();
             dCatchTable.Add("funcGetFuncCatchCode", "f0");
-            dCatchTable.Add("funcLicenseCheck", "f1");
             dCatchTable.Add("funcPrintParameterWarning", "f2");
             dCatchTable.Add("funcPrintParameterSyntax", "f3");
             dCatchTable.Add("funcParseCmdArguments", "f4");
