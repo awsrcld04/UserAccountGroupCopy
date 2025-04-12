@@ -255,8 +255,6 @@ namespace UserAccountGroupCopy
             {
                 // LogToEventLog("UserAccountGroupCopy", "UserAccountGroupCopy started successfully.", 1401);
 
-                funcProgramRegistryTag("UserAccountGroupCopy");
-
                 Console.WriteLine();
 
                 //PrincipalContext newctx = funcCreatePrincipalContext();
